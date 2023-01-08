@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Habits tracker</title>
+    <link rel="stylesheet" href="./style5.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+        
+        $('.toggle-btn').click(function() {
+        $(this).toggleClass('active').siblings().removeClass('active');
+        });
+        
+        });
+    </script>
+
+</head>
+
+<body>
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="tm-nav" id="tm-nav"> 
+                <p class="tm-nav-item " text-align="left"><a href="Profile.html" class="tm-nav-link">
+                    <i class="fas fa-user"></i> 
+                    Profile
+                </a></p></nav>
+        
+              
+                <h2 class="text-center">Productivity App</h2>
+         <br>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item "><a href="index.html" class="tm-nav-link">
+                        <i class="fas fa-home"></i> 
+                        Home
+                    </a></li>           
+                    <li class="tm-nav-item"><a href="post.html" class="tm-nav-link">
+                        <i class="fas fa-child"></i>
+                        Workout
+                    </a></li>
+                    <li class="tm-nav-item"><a href="relax.html" class="tm-nav-link">
+                        <i class="fas fa-stop"></i>
+                    Relax
+                    </a></li>
+                    <li class="tm-nav-item active"><a href="habitstracker.html" class="tm-nav-link">
+                        <i class="fas fa-check"></i>
+                        Habits Tracker
+                    </a></li>
+                    <li class="tm-nav-item"><a href="survey.html" class="tm-nav-link">
+                        <i class="fa fa-edit"></i>
+                        Check-up Survey
+                    </a></li>
+                </ul>
+            </nav>
+           
+        </div>
+     </header>
+     <div class="container-fluid">
+        <main class="tm-main">
+        <div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+        <div class="col-md-10">
+            <h2>Habits tracker</h2>
+            <div class="rounded">
+                <div class="table-responsive table-borderless">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center">
+                                   
+                                </th>
+                                <th>Type</th>
+                                <th>Name</th>
+                                <th>Priority</th>
+                                <th>Repeat</th>
+                                <th>Created</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                      </label>
+                                </td>
+                                <td>Private</td>
+                                <td>Walk 5 miles</td>
+                                <td><span class="badge badge-success">Act soon</span></td>
+                                <td>Daily</td>
+                                <td>Today</td>
+                                
+                            </tr>
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                      </label>
+                                </td>
+                                <td>Private</td>
+                                <td>Go to gym</td>
+                                <td><span class="badge badge-info">Lowest</span></td>
+                                <td>Every 3 days</td>
+                                <td>Yesterday</td>
+                                
+                            </tr>
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                      </label>
+                                </td>
+                                <td>Bussines</td>
+                                <td>Check emails</td>
+                                <td><span class="badge badge-danger">Highest</span></td>
+                                <td>Daily</td>
+                                <td>May 12,2020</td>
+                                
+                            </tr>
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                      </label>
+                                </td>
+                                <td>Private</td>
+                                <td>Sleep well</td>
+                                <td><span class="badge badge-success">Act soon</span></td>
+                                <td>Daily</td>
+                                <td>May 11,2020</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        
+    </main>
+    </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/templatemo-script.js"></script>
+</body>
+
+</html>
